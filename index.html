@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TALETSY||Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/TALETSY.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/TALETSY.jpg" alt="Taletsy" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Taletsy">TALETSY</h1>
+
+            <p class="title">Développeur full-stack</p>
+            <p style="padding-top: 16px; color: whitesmoke">
+              ‘‘Je n’ai pas échoué, j’ai juste trouvé 10 000 façons qui ne
+              fonctionnent pas.’’
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Voir Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <span class="contact-link">taletsyghislain4@gmail.com</span>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Tel</p>
+
+                <span class="contact-link"
+                  >+261 34 34 382 27 / +261 38 28 958 62
+                </span>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Date de naissance</p>
+
+                <time datetime="1982-06-23">10 Avril 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Adresse</p>
+
+                <address>Fianarantsoa, Madagascar</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/taletsy" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>À propos</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Cv</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Réalisations</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="à propos">
+          <header>
+            <h2 class="h2 article-title">À propos</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Un jeune enthousiaste pour la programmation informatique , plein
+              de dynamisme, désireux d’apprendre constamment et toujours prêt à
+              affronter de nouveaux défis.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Ce que je fais</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Conception UI/UX</h4>
+
+                  <p class="service-item-text">
+                    Utilisation de Figma pour créer des interfaces utilisateurs
+                    intuitives et esthétiques adaptées aux besoins des projets.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Développement Web</h4>
+
+                  <p class="service-item-text">
+                    Création d'applications web dynamiques et responsives avec
+                    des frameworks front-end comme React.js, Angular.js, et des
+                    solutions back-end robustes telles que Spring Boot et
+                    Express.js.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/desk-mob.png"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Développement d'Applications Mobile et Desktop
+                  </h4>
+
+                  <p class="service-item-text">
+                    Conception de logiciels desktop adaptés aux besoins
+                    spécifiques des entreprises, comme des outils de gestion
+                    développés en Java Swing, Conception des applications
+                    mobiles avec React Native
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/bdd.png" alt="" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Bases de Données et Stockage
+                  </h4>
+
+                  <p class="service-item-text">
+                    Expertise en PostgreSQL et MySQL pour la gestion des données
+                    complexes et la mise en place d'architectures de bases de
+                    données efficaces.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/gestion-projet.png"
+                    alt=""
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Gestion de Projets et Collaboration
+                  </h4>
+
+                  <p class="service-item-text">
+                    Adaptabilité et méthodologie agile pour mener à bien des
+                    projets en équipe ou individuellement, tout en utilisant des
+                    outils collaboratifs comme Git/GitHub.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Partenaires</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/partenaire/autre.jpg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/partenaire/wbs1.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/partenaire/ahiri.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="cv">
+          <header>
+            <h2 class="h2 article-title">Curriculum vitae</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  EMIT, UNIVERSITE DE FIANARANTSOA
+                </h4>
+
+                <span>2024 — 2025</span>
+
+                <p class="timeline-text">
+                  Master 1, en Modélisation et Ingénierie Informatique (M2I)
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  EMIT, UNIVERSITE DE FIANARANTSOA
+                </h4>
+
+                <span>2023 — 2024</span>
+
+                <p class="timeline-text">
+                  Troisième année en formation de licence professionnelle.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  EMIT, UNIVERSITE DE FIANARANTSOA
+                </h4>
+
+                <span>2022 — 2023 </span>
+
+                <p class="timeline-text">
+                  Deuxième année en formation de licence professionnelle.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  EMIT, UNIVERSITE DE FIANARANTSOA
+                </h4>
+
+                <span>2021 — 2022 </span>
+
+                <p class="timeline-text">
+                  Première année en formation de licence professionnelle.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Expériences</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  DEVELOPPEUR FULL-STACK JS / FORMATEUR Dev
+                </h4>
+                <span>24 Juillet 2024 — 24 Septembre 2024</span>
+                <p class="timeline-text">
+                  Au sein de Spray_info, Imandry Fianarantsoa (centre de
+                  formation)
+                </p>
+                <p class="timeline-text">
+                  - Conception et mise en œuvre d’une application pour la
+                  gestion des frais de formation, réalisée avec React js ,
+                  Express js et PostgreSQL.
+                </p>
+                <p class="timeline-text">
+                  - Réference (Le Gérant de Spray_info) : 034 28 467 14
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">STAGIAIRE DEVELOPPEUR</h4>
+
+                <span>Du 19 Juin 2023 - 19 Août 2023</span>
+
+                <p class="timeline-text">
+                  Lycée Saint François d’Assise (L.S.F.A) Fianarantsoa
+                </p>
+                <p class="timeline-text">
+                  - Conception et réalisation d’un logiciel de gestion de
+                  l’écolage au sein du LSFA, réalisé avec MySQL et Java Swing.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Compétences</h3>
+
+            <ul class="skills-list content-card">
+              <ol class="timeline-list">
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Bootstrap</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">JavaScript</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">React js</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Angular js</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Node js / Express js</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Java / Spring Boot</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Outils de gestion de projet
+                  </h4>
+                </li>
+              </ol>
+            </ul>
+          </section>
+          <section class="skill">
+            <h3 class="h3 skills-title">Langues</h3>
+
+            <ul class="skills-list content-card">
+              <ol class="timeline-list">
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Français</h4>
+                </li>
+                <li class="skills-item timeline-item">
+                  <h4 class="h4 timeline-item-title">Anglais</h4>
+                </li>
+              </ol>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="réalisations">
+          <header>
+            <h2 class="h2 article-title">Projets</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Design Web</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Desktop</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Design Web</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/html-css1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hotel Management</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/html-css2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Apartment Management</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/gestion-affectation2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gestion Affecation 2</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="design web"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Reservation hotel</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/fitness.png"
+                      alt="fitness"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fitness</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="design web"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/design-1.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gastonomie pizza.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="design web"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/design-2.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">La gasto</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/gestion-affectation.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gestion affectation</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/vente_produit_alccolique.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Vente produit alcoolique</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="desktop"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/projet/gestion-ecolage.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Ecolage</h3>
+
+                  <p class="project-category">Desktop</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
